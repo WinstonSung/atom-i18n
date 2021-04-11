@@ -1,3 +1,9 @@
+## 0.25.0 - Persian support
+- fa #292
+
+## 0.24.1 - Chinese (Traditional) fix
+- zh-tw i18n #289 #290
+
 ## 0.24.0 - Romanian support
 - ro i18n #277
 - pt-br i18n #275
