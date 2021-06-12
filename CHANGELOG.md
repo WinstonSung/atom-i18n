@@ -1,3 +1,8 @@
+## 0.26.0 - Malay support
+
+- ms i18n #313
+- sq i18n #311
+
 ## 0.25.2 - Czech update, bug fix
 
 - cs i18n #296
@@ -97,7 +102,8 @@
 
 ## 0.14.1 - Polish, Japanese update
 
-- welcome page fixes (Thanks [Lorenzo Ancora](//github.com/LorenzoAncora)) #164 #168
+- welcome page fixes (Thanks [Lorenzo Ancora](//github.com/LorenzoAncora)) #164
+  #168
 - Polish update (100%) #160
 - Japanese update (100%) #165
 - cson query fix #162

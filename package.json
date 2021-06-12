@@ -1,10 +1,9 @@
 {
   "name": "atom-i18n",
   "main": "./lib/main",
-  "version": "0.25.3",
+  "version": "0.26.0",
   "scripts": {
     "prettier:write": "prettier --write .",
-    "ci:test": "npm run lint && npm run validation",
     "lint": "eslint lib spec",
     "validation": "mocha --require @babel/register spec/validation.js"
   },
@@ -25,23 +24,23 @@
     "atom": ">=1.16.0 <2.0.0"
   },
   "dependencies": {
-    "cson": "^7.0.0"
+    "cson": "^7.20.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.13.15",
-    "@babel/preset-env": "^7.13.15",
-    "@babel/register": "^7.13.14",
-    "chai": "^4.2.0",
-    "core-js": "^3.10.1",
-    "eslint": "^7.0.0",
-    "eslint-config-prettier": "^8.2.0",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/register": "^7.13.16",
+    "chai": "^4.3.4",
+    "core-js": "^3.13.1",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
     "husky": "^6.0.0",
     "isomorphic-fetch": "^3.0.0",
-    "lint-staged": "^10.5.4",
-    "mocha": "^8.3.2",
-    "prettier": "^2.2.1",
-    "regenerator-runtime": "^0.13.7",
-    "yargs": "^16.0.0"
+    "lint-staged": "^11.0.0",
+    "mocha": "^8.4.0",
+    "prettier": "^2.3.0",
+    "regenerator-runtime": "^0.13.8",
+    "yargs": "^17.0.1"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
@@ -116,6 +115,10 @@
         {
           "value": "ko",
           "description": "한국어 (ko)"
+        },
+        {
+          "value": "ms",
+          "description": "Bahasa Melayu (ms)"
         },
         {
           "value": "nl",
